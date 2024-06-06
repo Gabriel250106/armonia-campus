@@ -1,0 +1,358 @@
+.title{
+    font-family: "Source Code Pro";
+    font-size: 40px;
+    text-align: left;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #333333, -1px -1px 0px #333333, 1px -1px 0px #333333, -1px 1px 0px #333333;
+    margin-left: 381.5px;
+    line-height: 50px;
+}
+.body{
+    font-family: "Source Code Pro";
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    color: #333333;
+    margin-left: 381.5px;
+    margin-right: 119px;
+    line-height: 39px;
+}
+.textLight1{
+    font-family: "Source Code Pro";
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+    border: none;
+    border-bottom: 1px dashed #333333;
+    line-height: 39px;
+    resize: none;
+    outline: none;
+}
+.textLight2{
+    font-family: "Source Code Pro";
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+    border: none;
+    border-bottom: 1px dashed #333333;
+    display: block;
+    line-height: 39px;
+    margin-right: 119px;
+    resize: none;
+    outline: none;
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-position: 1;
+}
+.dot{
+    margin-left: 119px;
+    font-family: "Source Code Pro";
+    font-size: 22px;
+    line-height: 39px;
+    color: #333333;
+    text-align: end;
+}
+.sideBar{
+    background-color: #90CCAC;
+    width: 297px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sideBar1{
+    margin-left: 30px;
+    margin-right: 87px;
+    margin-top: 38px;
+}
+.sideBarTitle{
+    font-family: "Source Code Pro";
+    font-size: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 38px;
+}
+.sideBar2{
+    font-family: "Source Code Pro";
+    font-size: 13px;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 17px;
+    margin-top: 33px;
+}
+:any-link{
+  color:#FFFFFF;
+  
+}
+.sideBar3{
+    font-family: "Source Code Pro";
+    font-size: 13px;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 17px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.button{
+    width: 285px;
+    height: 67px;
+    background-color: #EAEAEA;
+    border: none;
+    color: #333333;
+    text-align: center;
+    font-family: "Source Code Pro";
+    font-size: 22px;
+    line-height: 28px;
+}
+.chat{
+    border: 1px solid #333333;
+    margin-left: 381.5px;
+    margin-right: 119px;
+    width: 859px;
+    height: 453px;
+}
+.avatar{
+    margin-left: 40px;
+    margin-top: 43px;
+    margin-right: 24px;
+    width: 64px;
+    height: 64px;
+    float: left;
+}
+.container {
+    width: 290px;
+    height: 39px;
+    background-color: #E6F7FF;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.containerDarker {
+    width: 290px;
+    height: 39px;
+    background-color: #F4F6F7;
+    margin-left: 525px;
+    border-radius: 5px;
+}
+.giftContainer{
+    width: 290px;
+    height: 39px;
+    background-color: #F4F6F7;
+    margin-left: 40px;
+    width: 290px;
+    height: 90px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.text{
+    color: #333333;
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    text-align: left;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    line-height: 18px;
+    position: absolute;
+}
+.textGift1{
+    color: #333333;
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    text-align: left;
+    margin-left: 48px;
+    margin-top: 19px;
+    margin-bottom: 53px;
+    line-height: 18px;
+    position: absolute;
+}
+.textGift2{
+    color: #333333;
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    text-align: left;
+    margin-left: 93px;
+    margin-top: 55px;
+    margin-bottom: 17px;
+    line-height: 18px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.emoji{
+    width: 32px;
+    height: 42px;
+    text-align: left;
+    margin-left: 196px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    position: absolute;
+}
+.triangle-up {
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 5px solid #E6F7FF;
+    margin-left: 53px;
+    margin-top: 1px;
+    bottom: 0;
+}
+.triangle-up2 {
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 5px solid #F4F6F7;
+    margin-left: 786px;
+    margin-bottom: 1px;
+    bottom: 0;
+}
+.user{
+    color: #333333;
+    font-family: "Source Code Pro";
+    text-align: left;
+    font-size: 22px;
+    margin-left: 128px;
+    margin-top: 47px;
+}
+.userInf{
+    color: #CCCCCC;
+    font-size: 13px;
+    margin-bottom: 60px;
+    margin-top: 1px;
+}
+.chatContainer{
+    width: 859px;
+    height: 81px;
+    margin-left: 381.5px;
+    margin-right: 119px;
+    background-color: #F4F6F7; 
+}
+.messageContainer{
+    width: 830px;
+    height: 54px;
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-bottom: 13px;
+    background-color: #FFFFFF;
+}
+.sendMessage{
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    text-align: left;
+    line-height: 18px;
+    color: #CCCCCC; 
+    resize: none;
+    outline: none;
+    border: none;
+}
+.sendMessage::placeholder{
+    position: absolute;
+    top: 17px; 
+    left: 30px; 
+}
+.sendButton{
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    text-align: left;
+    line-height: 18px;
+    color: #333333;
+    width: 181px;
+    height: 54px;
+    background-color: #E6F7FF;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    float: right;
+}
+.bottomBar {
+    position: relative;
+    left: 382px;
+    width: 859px;
+    height: 86px;
+    background: #AEBED8;
+    opacity: 1;
+  }
+  
+  .bottomText {
+    position: absolute;
+    text-align: left;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .bottomText.cliente {
+    top: 32px;
+    left: 34px;
+  }
+  
+  .bottomText.eta {
+    top: 32px;
+    left: 302px;
+  }
+  
+  .bottomText.posizione {
+    top: 32px;
+    left: 428px;
+  }
+  
+  .bottomText.azioni {
+    top: 32px;
+    left: 742px;
+  }
+  
+  .infoContainer {
+    position: relative;
+    margin-top: 20px;
+    left: 382px;
+    width: 825px;
+    opacity: 1;
+  }
+  
+  .infoRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .infoImage {
+    width: 43px;
+    height: 42px;
+    opacity: 1;
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+  
+  .infoText {
+    font-family: "Source Code Pro", monospace;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+    opacity: 1;
+  }
+  
+  .infoText.name {
+    width: 200px;
+  }
+  
+  .infoText.age {
+    width: 50px;
+    margin-left: 15px;
+  }
+  
+  .infoText.position {
+    width: 250px;
+    margin-left: 70px;
+  }
+  
+  .infoText.action {
+    cursor: pointer;
+    margin-left: 40px;
+  } 
+

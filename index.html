@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="estilo.css" />
+    <!-- Preconnecting to Google Fonts for performance optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Linking the Google Font 'Source Code Pro' -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Side Bar -->
+    <aside class="sideBar">
+      <div class="sideBar1">
+        <header class="sideBarTitle">
+          <b>Componenti</b>
+        </header>
+        <div class="sideBar2">
+          <p>
+            <!-- Navigation links -->
+            <a href="#modulo-contatto">Modulo di Contatto</a><br /><br />
+            <a href="#chat">Chat</a><br /><br />
+            <a href="#stylish-table">Stylish Table</a>
+          </p>
+        </div>
+        <span class="sideBar3">
+          <b>&lt;/&gt; by Pasquale</b>
+        </span>
+      </div>
+    </aside>
+
+    <br /><br />
+
+    <!-- Contact Form Section -->
+    <header class="title" id="modulo-contatto"># Modulo di contatto</header>
+    <br /><br />
+
+    <div class="body">
+      <form class="main">
+        Ciao! <br /><br />
+        Mi chiamo
+        <textarea
+          type="name"
+          class="textLight1"
+          rows="1"
+          placeholder="Nome e cognome"
+        ></textarea>
+        e al momento
+        <textarea
+          type="work"
+          rows="1"
+          class="textLight1"
+          placeholder="Occupazione"
+        ></textarea
+        >.<br />
+        Mi farebbe piacere partecipare a Ninja Campus perchè <br />
+        <textarea
+          type="personal"
+          class="textLight2"
+          cols="68"
+          rows="2"
+          placeholder="Introduzione personale"
+        ></textarea>
+        Il mio numero è
+        <input
+          type="tel"
+          class="textLight1"
+          placeholder="Contatto telefonico"
+          pattern="[0-0]{3}-[0-9]{3}-[0-9]{3}"
+          required
+        /><br />
+        o potete contattarmi sull’indirizzo email
+        <input
+          type="email"
+          class="textLight1"
+          placeholder="Contatto email"
+          required
+        />
+        .<br />
+        <textarea
+          type="personal"
+          class="textLight2"
+          cols="68"
+          rows="2"
+          placeholder="Domande e dettagli"
+        ></textarea>
+        Grazie.<br /><br />
+        <button type="button" class="button">INVIA MESSAGIO ></button>
+      </form>
+    </div>
+    <br /><br />
+
+    <!-- Chat Section -->
+    <header class="title" id="chat"># Chat</header>
+    <br /><br />
+    <div class="chat">
+      <img src="imagem1.png" class="avatar" alt="Avatar" />
+      <div class="user">
+        <span>Aldo Baglio</span>
+        <p class="userInf">Ultimo accesso: 3 ore fa</p>
+      </div>
+      <div class="triangle-up"></div>
+      <div class="container">
+        <p class="text">Ciao, come posso aiutarti?</p>
+      </div>
+      <div class="containerDarker">
+        <p class="text">Vorrei un etto di prosciutto</p>
+      </div>
+      <div class="triangle-up2"></div>
+      <div class="triangle-up"></div>
+      <div class="container">
+        <p class="text">Ecco a te!</p>
+      </div>
+      <div class="giftContainer">
+        <p class="textGift1">Nuovo regalo!</p>
+        <p class="textGift2"><u>Accetta dono</u></p>
+        <p class="emoji">🦚</p>
+      </div>
+    </div>
+    <div class="chatContainer">
+      <br />
+      <form class="messageContainer">
+        <textarea
+          class="sendMessage"
+          cols="70"
+          placeholder="Scrivi un messaggio…"
+        ></textarea>
+        <button type="button" class="sendButton">Invia messagio ></button>
+      </form>
+    </div>
+    <br /><br />
+
+    <!-- Stylish Table Section -->
+    <header class="title" id="stylish-table">
+      # Stylish table
+      <button type="button" class="button">Ricarica dati</button>
+    </header>
+    <br /><br />
+    <div class="bottomBar">
+      <span class="bottomText cliente">Cliente</span>
+      <span class="bottomText eta">Età</span>
+      <span class="bottomText posizione">Posizione</span>
+      <span class="bottomText azioni">Azioni</span>
+    </div>
+
+    <div class="infoContainer">
+      <!-- Row for each user -->
+      <div class="infoRow">
+        <img src="imagem1.png" class="infoImage" alt="Aldo Baglio" />
+        <span class="infoText name">Aldo Baglio</span>
+        <span class="infoText age">32</span>
+        <span class="infoText position">Comico professionista</span>
+        <span class="infoText action"><u>Cancella</u></span>
+      </div>
+      <div class="infoRow">
+        <img src="imagem1.png" class="infoImage" alt="Aldo Baglio" />
+        <span class="infoText name">Aldo Baglio</span>
+        <span class="infoText age">32</span>
+        <span class="infoText position">Comico professionista</span>
+        <span class="infoText action"><u>Cancella</u></span>
+      </div>
+      <div class="infoRow">
+        <img src="imagem1.png" class="infoImage" alt="Aldo Baglio" />
+        <span class="infoText name">Aldo Baglio</span>
+        <span class="infoText age">32</span>
+        <span class="infoText position">Comico professionista</span>
+        <span class="infoText action"><u>Cancella</u></span>
+      </div>
+      <div class="infoRow">
+        <img src="imagem1.png" class="infoImage" alt="Aldo Baglio" />
+        <span class="infoText name">Aldo Baglio</span>
+        <span class="infoText age">32</span>
+        <span class="infoText position">Comico professionista</span>
+        <span class="infoText action"><u>Cancella</u></span>
+      </div>
+      <div class="infoRow">
+        <img src="imagem1.png" class="infoImage" alt="Aldo Baglio" />
+        <span class="infoText name">Aldo Baglio</span>
+        <span class="infoText age">32</span>
+        <span class="infoText position">Comico professionista</span>
+        <span class="infoText action"><u>Cancella</u></span>
+      </div>
+    </div>
+    <br /><br />
+  </body>
+</html>

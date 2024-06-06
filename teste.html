@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css " />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Modulo di Contatto</title>
+  </head>
+  <body>
+    <aside class="sideBar">
+      <div class="sideBarTitle">
+        <header>
+          <pre>
+  <b>Componenti</b></pre>
+        </header>
+        <div class="sideBar2">
+          <pre>
+    <u>Modulo di Contatto</u><br>
+    <u>Chat</u><br>
+    <u>Stylish Table</u></pre>
+        </div>
+        <span class="sideBar3">
+          <pre> <b> &lt;/&gt; by Pasquale</b></pre>
+        </span>
+      </div>
+    </aside>
+    <br /><br />
+    <header class="title">
+      <h2># Modulo di contatto</h2>
+    </header>
+    <div class="body">
+      Ciao! <br /><br />
+      Mi chiamo
+      <input
+        type="text"
+        class="textLight1"
+        value="Nome e cognome"
+        onfocus="clearText(this)"
+        onblur="resetText(this, 'Nome e cognome')"
+      />
+      e al momento
+      <input
+        type="text"
+        class="textLight1"
+        value="Occupazione"
+        onfocus="clearText(this)"
+        onblur="resetText(this, 'Occupazione')"
+      /><span class="dot">.</span><br />
+      Mi farebbe piacere partecipare a Ninja Campus perché <br />
+      <input
+        type="text"
+        class="textLight2 multiline"
+        value="Introduzione personale"
+        onfocus="clearText(this)"
+        onblur="resetText(this, 'Introduzione personale')"
+      />
+      <input type="text" class="textLight2 multiline" /><br />
+      Il mio numero è
+      <input
+        type="text"
+        class="textLight1"
+        value="Contatto telefonico"
+        onfocus="clearText(this)"
+        onblur="resetText(this, 'Contatto telefonico')"
+      /><br />
+      o potete contattarmi all'indirizzo email
+      <input
+        type="text"
+        class="textLight1"
+        value="Contatto Email"
+        onfocus="clearText(this)"
+        onblur="resetText(this, 'Contatto Email')"
+      /><span class="dot">.</span><br />
+      <input
+        type="text"
+        class="textLight2 multiline"
+        value="Domande e dettagli"
+        onfocus="clearText(this)"
+        onblur="resetText(this, 'Domande e dettagli')"
+      />
+      <input type="text" class="textLight2 multiline" /><br />
+      Grazie.<br />
+      <button type="submit" class="button">INVIA MESSAGIO ></button><br /><br /><br />
+    </div>
+    <br /><br />
+     <script>
+      function clearText(field) {
+        if (field.defaultValue === field.value) {
+          field.value = "";
+        }
+      }
+
+      function resetText(field, defaultText) {
+        if (field.value === "") {
+          field.value = defaultText;
+        }
+      }
+    </script>
+  </body>
+</html>
